@@ -1,0 +1,26 @@
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+.logotype {
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 1.30;
+    letter-spacing: 3%;
+    vertical-align: middle;
+    text-transform: uppercase;
+    background: #ffffff;
+}
+.menu-title:hover,
+.menu-title:focus {
+    color: red;
+}
+.menu-nel: hover,
+.menu-tel: focus {
+    color: blue;
+}
+
+
