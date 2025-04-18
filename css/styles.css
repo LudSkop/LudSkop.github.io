@@ -16,11 +16,55 @@
 }
 .menu-title:hover,
 .menu-title:focus {
-    color: red;
+    color: yellow;
 }
 .menu-nel: hover,
 .menu-tel: focus {
-    color: blue;
+    color: orange;
 }
+.menu-title {
+    font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 2%;
 
-
+}
+/*main button ========================*/
+.main-title {
+    display: none;
+}
+.button-all {
+    color: green;
+}
+.button-all:hover,
+.button-all:focus {
+    background: blue;
+    color: red;
+}
+.button-all {
+    cursor: pointer:
+}
+.button-web {
+    color: red;
+}
+.button-web:hover,
+.button-web:focus {
+    background: coral;
+    color: red;
+}
+.button-app {
+    color: red;
+}
+.button-app:hover,
+.button-app:focus {
+    background: yellow;
+    color: red;
+}
+.button-design {
+    color: red;
+}
+.button-design:hover,
+.button-design:focus {
+    background: blue;
+    color: red;
