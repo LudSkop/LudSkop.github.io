@@ -12,59 +12,95 @@
     letter-spacing: 3%;
     vertical-align: middle;
     text-transform: uppercase;
-    background: #ffffff;
+    background: navy blue;
+    color: #2E2F42
 }
 .menu-title:hover,
 .menu-title:focus {
-    color: yellow;
+    color: green;
 }
-.menu-nel: hover,
-.menu-tel: focus {
-    color: orange;
-}
+
 .menu-title {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 2%;
 
 }
+.menu-mail {
+font-family: Roboto, sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 2%;
+color: #434455;
+}
+.menu-mail:hover,
+.menu-mail:focus {
+    color: red;
+}
+.menu-tel {
+font-family: Roboto, sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 2%;
+color: #434455;
+}
+.menu-tel:hover,
+ .menu-tel:focus {
+    color: green;
+}
+
+
 /*main button ========================*/
 .main-title {
     display: none;
 }
-.button-all {
-    color: green;
+.all {
+    color: #FDF5E6;
+    background: blue;
 }
-.button-all:hover,
-.button-all:focus {
+.all:hover,
+.all:focus {
     background: blue;
     color: red;
 }
-.button-all {
+.all {
     cursor: pointer:
 }
-.button-web {
+.web {
     color: red;
 }
-.button-web:hover,
-.button-web:focus {
+.web:hover,
+.web:focus {
     background: coral;
     color: red;
 }
-.button-app {
+.app {
     color: red;
 }
-.button-app:hover,
-.button-app:focus {
+.app:hover,
+.app:focus {
     background: yellow;
     color: red;
 }
-.button-design {
+.design {
     color: red;
 }
-.button-design:hover,
-.button-design:focus {
+.design:hover,
+.design:focus {
+    color: GREEN;
     background: blue;
-    color: red;
+}
+.button {
+font-family: Roboto, sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 4%;
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+}
