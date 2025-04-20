@@ -5,23 +5,33 @@
     text-decoration: none;
 }
 .logotype {
-    font-family: Raleway, sans-serif;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 1.30;
-    letter-spacing: 3%;
-    vertical-align: middle;
-    text-transform: uppercase;
-    background: navy blue;
-    color: #2E2F42
+font-family: Raleway, sans serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+letter-spacing: 3%;
+vertical-align: middle;
+text-transform: uppercase;
 }
+.web {
+background: #4D5AE5;
+}
+.studio {
+background: #2E2F42;
+
+}
+.logotype:hover {
+color: red
+}
+
+
 .menu-title:hover,
 .menu-title:focus {
     color: green;
 }
 
 .menu-title {
-    font-family: Roboto, sans-serif;
+font-family: Roboto, sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -103,4 +113,38 @@ letter-spacing: 4%;
 text-align: center;
 vertical-align: middle;
 cursor: pointer;
+}
+/*===============hero============*/
+.text1 {
+font-family: Roboto;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 2%;
+color:#2E2F42
+}
+.text2 {
+font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 2%;
+color: #434455;
+
+}
+
+
+/* =============== footer ==================*/
+.footer-text {
+font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 2%;
+color: #F4F4FD;
+background: #2E2F42;
+
+}
+.color {
+color: #F4F4FD;
 }
