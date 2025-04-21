@@ -4,6 +4,15 @@
 .link {
     text-decoration: none;
 }
+/*========наслідування ЛИШЕ ТЕЛСТОВІ ВЛАСТИВОСТІ==========*/
+.body {
+font-family: 'Roboto', sans-serif;
+}
+/* ========ЗМІННІ===========*/
+.root {
+--primary-text-color1: #2E2F42;
+--primary-text-color2:#43445
+}
 .logotype {
 font-family: Raleway, sans serif;
 font-weight: 800;
@@ -121,7 +130,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 2%;
-color:#2E2F42
+color: var(--primary-text1);
 }
 .text2 {
 font-family: Roboto;
@@ -129,7 +138,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 2%;
-color: #434455;
+color: var(--primary-text-color2);
 
 }
 
