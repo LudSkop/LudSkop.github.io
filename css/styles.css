@@ -4,14 +4,14 @@
 .link {
     text-decoration: none;
 }
-/*========наслідування ЛИШЕ ТЕЛСТОВІ ВЛАСТИВОСТІ==========*/
+/*========наслідування ЛИШЕ ТЕKСТОВІ ВЛАСТИВОСТІ==========*/
 .body {
 font-family: 'Roboto', sans-serif;
 }
 /* ========ЗМІННІ===========*/
 .root {
 --primary-text-color1: #2E2F42;
---primary-text-color2:#43445
+--primary-text-color2: #43445;
 }
 .logotype {
 font-family: Raleway, sans serif;
