@@ -36,7 +36,7 @@ color: red
 
 .menu-title:hover,
 .menu-title:focus {
-    color: green;
+    color: rgb(255, 0, 0);
 }
 
 .menu-title {
