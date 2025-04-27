@@ -4,17 +4,34 @@
 .link {
     text-decoration: none;
 }
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top:0;
+    margin-bottom: 0;
+}
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img {
+    display: block;
+}
 /*========наслідування ЛИШЕ ТЕKСТОВІ ВЛАСТИВОСТІ==========*/
-.body {
+body {
 font-family: 'Roboto', sans-serif;
 }
 /* ========ЗМІННІ===========*/
-.root {
+:root {
 --primary-text-color1: #2E2F42;
---primary-text-color2: #43445;
+--primary-text-color2: #434445;
 }
 .logotype {
-font-family: Raleway, sans serif;
+font-family: Raleway, sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.16;
