@@ -21,6 +21,9 @@ ol {
 img {
     display: block;
 }
+button {
+cursor: pointer;
+}
 /*========наслідування ЛИШЕ ТЕKСТОВІ ВЛАСТИВОСТІ==========*/
 body {
 font-family: 'Roboto', sans-serif;
@@ -30,6 +33,7 @@ font-family: 'Roboto', sans-serif;
 --primary-text-color1: #2E2F42;
 --primary-text-color2: #434445;
 }
+
 .logotype {
 font-family: Raleway, sans-serif;
 font-weight: 800;
@@ -72,6 +76,9 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 2%;
 color: #434455;
+margin-top: 20px;
+margin-bottom: 20px;
+border: 5px solid tomato;
 }
 .menu-mail:hover,
 .menu-mail:focus {
