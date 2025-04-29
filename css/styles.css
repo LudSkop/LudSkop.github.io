@@ -1,3 +1,4 @@
+/*===========скидання дефолтних настройок============*/
 .list {
     list-style: none;
 }
@@ -25,6 +26,7 @@ button {
 cursor: pointer;
 }
 /*========наслідування ЛИШЕ ТЕKСТОВІ ВЛАСТИВОСТІ==========*/
+
 body {
 font-family: 'Roboto', sans-serif;
 }
@@ -33,6 +35,122 @@ font-family: 'Roboto', sans-serif;
 --primary-text-color1: #2E2F42;
 --primary-text-color2: #434445;
 }
+/*==============================*/
+.container {
+width: 1200px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
+
+
+}
+/*justify-content: space-between;/*
+
+
+
+
+/*=========header===============*/
+.page-header-container {
+display: flex;
+align-items: center;
+background-color: #f5f7f9;
+padding-top: 32px;
+padding-bottom: 32px;
+
+}
+
+.page-header {
+display: flex;
+align-items: center;
+}
+
+.menu {
+display: flex;
+align-items: center;
+}
+
+.studio {
+margin-right: 40px;
+}
+.menu-item:not(:last-child) {
+margin-right: 50px;
+}
+
+.list {
+margin-left: auto;
+}
+/*========================================================*/
+
+.button-wrapper {
+  display: flex; /* Робимо flex-контейнер */
+  gap: 25px; /* Відстань між кнопками */
+  justify-content: center; /* Вирівнюємо кнопки по центру */
+  flex-wrap: wrap; /* Дозволяємо кнопкам переноситись на новий рядок на маленьких екранах */
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: #f2f3f4;
+}
+
+/*============================*/
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+
+  flex-wrap: wrap; /* Дозволяємо переноситись на новий рядок на маленьких екранах */
+  padding-top: 32px;
+  padding-bottom: 32px;
+  gap: 30px;
+  background-color: lime;
+  }
+  .menu-page {
+  flex-basis:calc((:100% - 60) / 3)
+  }
+
+  .text1 {
+  padding-top: 20px;
+  padding-left: 20px;
+
+  }
+  .text2 {
+  padding-bottom: 20px;
+  padding-left: 20px;
+  }
+  .color1 {
+  background-color: lime;
+  }
+    .color2 {
+  background-color: tomato;
+  }
+    .color3 {
+  background-color: red;
+  }
+
+
+/*=========футер==========*/
+
+.footer-container {
+display: flex;
+
+background-color: #2E2F42;
+margin-right: auto;
+}
+.footer-tex {
+align-items: flex-end;
+}
+
+
+
+
+
+
+
+
+
 
 .logotype {
 font-family: Raleway, sans-serif;
@@ -68,6 +186,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 2%;
 
+
 }
 .menu-mail {
 font-family: Roboto, sans-serif;
@@ -76,9 +195,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 2%;
 color: #434455;
-margin-top: 20px;
-margin-bottom: 20px;
-border: 5px solid tomato;
+margin-right: 20px;
+
 }
 .menu-mail:hover,
 .menu-mail:focus {
@@ -93,9 +211,10 @@ letter-spacing: 2%;
 color: #434455;
 }
 .menu-tel:hover,
- .menu-tel:focus {
+.menu-tel:focus {
     color: green;
 }
+
 
 
 /*main button ========================*/
@@ -164,6 +283,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 2%;
 color: var(--primary-text-color2);
+
 
 }
 
