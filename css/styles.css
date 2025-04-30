@@ -35,7 +35,7 @@ font-family: 'Roboto', sans-serif;
 --primary-text-color1: #2E2F42;
 --primary-text-color2: #434445;
 }
-/*==============================*/
+/*==============================header============*/
 .container {
 width: 1000px;
 margin-left: auto;
@@ -53,7 +53,7 @@ padding-right: 15px;
 .page-header-container {
 display: flex;
 align-items: center;
-background-color: lime;
+background-color: #f2f3f4;
 padding-top: 32px;
 padding-bottom: 32px;
 
@@ -62,6 +62,8 @@ padding-bottom: 32px;
 .page-header {
 display: flex;
 align-items: center;
+background-color: ;
+
 }
 
 .menu {
@@ -79,7 +81,7 @@ margin-right: 50px;
 .list {
 margin-left: auto;
 }
-/*========================================================*/
+/*=====================header-button===================================*/
 
 .button-wrapper {
   display: flex; /* Робимо flex-контейнер */
@@ -91,55 +93,66 @@ margin-left: auto;
   background-color: #f2f3f4;
 }
 
-/*============================*/
+/*============================ фото-main-hero    =============*/
 .list-container {
   display: flex;
-  width: calc((100% - 60px) / 3)
-  margin-right: 30px;
   flex-wrap: wrap; /* Дозволяємо переноситись на новий рядок на маленьких екранах */
-  background-color: lime;
+  background-color: #f2f3f4 ;
   }
-  list-container:nth-child(3n) {
+ .menu-page {
+   width: calc((100% - 60px) / 3);
+   margin-right: 30px;
+   margin-bottom: 30px;
+   padding-bottom: 30px;
+  }
+.menu-page:nth-child(3n) {
   margin-right: 0px;
   }
+.hero {
+margin-left: 15;
+margin-right: 15;
+background-color: #f2f3f4;
+}
 
-
+/*=======text========*/
   .text1 {
   padding-top: 20px;
   padding-left: 20px;
-
   }
   .text2 {
   padding-bottom: 20px;
   padding-left: 20px;
   }
+  /*============== color               ============*/
   .color1 {
-  background-color: lime;
+  background-color: #f2f3f4;
   }
     .color2 {
-  background-color: tomato;
+  background-color: #f2f3f4;
   }
     .color3 {
-  background-color: red;
+  background-color: #f2f3f4;
   }
 
 
 /*=========футер==========*/
 
-
-
 .footer-container {
   display: flex;
-  flex-direction: column; /* вертикальне розміщення */
-  align-items: flex-start; /* вирівнювання по лівому краю */
-  color: white;
+  flex-direction: column; /* щоб текст ішов під логотипом */
+  align-items: flex-start;
+  width: 400px;
+  padding: 40px;
   background-color: #2E2F42;
-  /*max-width: 300px;*/
+  color: white;
 }
-.footer-tex {
-align-items: flex-start;
+.footer-logo {
+margin-left: ;
+margin-right: ;
+background-color: #2E2F42;
+}
 
-}
+
 
 
 
@@ -162,10 +175,11 @@ vertical-align: middle;
 text-transform: uppercase;
 }
 .web {
-background: #4D5AE5;
+color: #00f;
+background: #yellow;
 }
 .studio {
-background: #2E2F42;
+color: #2E2F42;
 
 }
 .logotype:hover {
@@ -222,27 +236,27 @@ color: #434455;
     display: none;
 }
 .all {
-    color: #FDF5E6;
+    color: #f2f5f8;
     background: blue;
 }
 .all:hover,
 .all:focus {
-    background: blue;
-    color: red;
+    background: tomato;
+    color: blue;
 }
 .all {
     cursor: pointer:
 }
-.web {
-    color: red;
+.webo {
+    color: blue;
 }
-.web:hover,
-.web:focus {
+.webo:hover,
+.webo:focus {
     background: coral;
     color: red;
 }
 .app {
-    color: red;
+    color: blue;
 }
 .app:hover,
 .app:focus {
@@ -250,7 +264,7 @@ color: #434455;
     color: red;
 }
 .design {
-    color: red;
+    color: blue;
 }
 .design:hover,
 .design:focus {
