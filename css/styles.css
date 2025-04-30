@@ -37,12 +37,11 @@ font-family: 'Roboto', sans-serif;
 }
 /*==============================*/
 .container {
-width: 1200px;
+width: 1000px;
 margin-left: auto;
 margin-right: auto;
 padding-left: 15px;
 padding-right: 15px;
-
 
 }
 /*justify-content: space-between;/*
@@ -54,7 +53,7 @@ padding-right: 15px;
 .page-header-container {
 display: flex;
 align-items: center;
-background-color: #f5f7f9;
+background-color: lime;
 padding-top: 32px;
 padding-bottom: 32px;
 
@@ -87,29 +86,23 @@ margin-left: auto;
   gap: 25px; /* Відстань між кнопками */
   justify-content: center; /* Вирівнюємо кнопки по центру */
   flex-wrap: wrap; /* Дозволяємо кнопкам переноситись на новий рядок на маленьких екранах */
-  padding-top: 45px;
-  padding-bottom: 45px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   background-color: #f2f3f4;
 }
 
 /*============================*/
 .list-container {
   display: flex;
-  justify-content: space-between;
-  padding-left: 25px;
-  padding-right: 25px;
-  margin-left: 15px;
-  margin-right: 15px;
-
+  width: calc((100% - 60px) / 3)
+  margin-right: 30px;
   flex-wrap: wrap; /* Дозволяємо переноситись на новий рядок на маленьких екранах */
-  padding-top: 32px;
-  padding-bottom: 32px;
-  gap: 30px;
   background-color: lime;
   }
-  .menu-page {
-  flex-basis:calc((:100% - 60) / 3)
+  list-container:nth-child(3n) {
+  margin-right: 0px;
   }
+
 
   .text1 {
   padding-top: 20px;
@@ -133,15 +126,22 @@ margin-left: auto;
 
 /*=========футер==========*/
 
-.footer-container {
-display: flex;
 
-background-color: #2E2F42;
-margin-right: auto;
+
+.footer-container {
+  display: flex;
+  flex-direction: column; /* вертикальне розміщення */
+  align-items: flex-start; /* вирівнювання по лівому краю */
+  color: white;
+  background-color: #2E2F42;
+  /*max-width: 300px;*/
 }
 .footer-tex {
-align-items: flex-end;
+align-items: flex-start;
+
 }
+
+
 
 
 
