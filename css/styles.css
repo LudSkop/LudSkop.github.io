@@ -91,6 +91,7 @@ margin-left: auto;
   padding-top: 25px;
   padding-bottom: 25px;
   background-color: #f2f3f4;
+
 }
 
 /*============================ фото-main-hero    =============*/
@@ -238,6 +239,7 @@ color: #434455;
 .all {
     color: #f2f5f8;
     background: blue;
+    border: none;
 }
 .all:hover,
 .all:focus {
@@ -249,6 +251,7 @@ color: #434455;
 }
 .webo {
     color: blue;
+    border: none;
 }
 .webo:hover,
 .webo:focus {
@@ -257,6 +260,7 @@ color: #434455;
 }
 .app {
     color: blue;
+    border: none;
 }
 .app:hover,
 .app:focus {
@@ -265,6 +269,7 @@ color: #434455;
 }
 .design {
     color: blue;
+    border: none;
 }
 .design:hover,
 .design:focus {
