@@ -139,8 +139,9 @@ margin: 0 auto;
 display: flex;
 align-items: flex-start;
 
-  flex-direction: column; /* щоб текст ішов під логотипом */
-  align-items: flex-start;
+flex-direction: column; /* щоб текст ішов під логотипом */
+align-items: flex-start;
+background-color: yellow;
 
 
 }
@@ -167,12 +168,23 @@ align-items: flex-start;
 }
 .photo {
 display: flex;
+
+}
+.top {
+background-color: blue;
 }
 .subtitle {
  text-align: center;
- font-size: 2rem;
- margin-bottom: 20px; /* необов'язково, для відступу вниз */
+ font-size: 3rem;
+ margin-bottom: 50px;
 }
+.team {
+display: flex;
+justify-content: center;
+gap: 20px;
+background-color: tomato;
+}
+
 
 
 /*=======text========*/
