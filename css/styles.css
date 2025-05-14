@@ -111,8 +111,8 @@ margin-left: auto;
   margin-right: 0px;
   }
 .hero {
-margin-left: 15;
-margin-right: 15;
+margin-left: 15px;
+margin-right: 15px;
 background-color: #f2f3f4;
 }
 /*======hero-title=======*/
@@ -141,7 +141,7 @@ align-items: flex-start;
 
 flex-direction: column; /* щоб текст ішов під логотипом */
 align-items: flex-start;
-background-color: yellow;
+background-color: none;
 
 
 }
@@ -168,21 +168,31 @@ align-items: flex-start;
 }
 .photo {
 display: flex;
+justify-content: center;
+gap: 50px;
+padding-bottom: 60px;
+padding-top: 60px;
 
 }
 .top {
-background-color: blue;
+background-color: none;
+}
+.colo {
+background-color: none;
 }
 .subtitle {
  text-align: center;
  font-size: 3rem;
- margin-bottom: 50px;
+ padding-bottom: 50px;
 }
 .team {
 display: flex;
 justify-content: center;
 gap: 20px;
-background-color: tomato;
+
+}
+.team1 {
+background-color: none;
 }
 
 
