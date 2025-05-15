@@ -1,0 +1,21 @@
+.container {
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
+border: yellow;
+
+}
+
+.linear-gradient-block {
+height: 500px;
+width: 100%;
+background-image: linear-gradient(to left bottom, blue, yellow, tomato);
+/*
+background-image: url("https://picsum.photos/id/237/200/300");
+background-color: yellow;
+background-repeat: no-repeat;
+background-position: right 15px bottom 20px;*/
+
+}
