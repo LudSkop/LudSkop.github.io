@@ -44,6 +44,7 @@ margin-right: auto;
 padding-left: 15px;
 padding-right: 15px;
 
+
 }
 /*justify-content: space-between;/*
 
@@ -100,6 +101,7 @@ margin-left: auto;
   display: flex;
   flex-wrap: wrap; /* Дозволяємо переноситись на новий рядок на маленьких екранах */
   background-color: #f2f3f4 ;
+
   }
  .menu-page {
    width: calc((100% - 60px) / 3);
@@ -120,13 +122,12 @@ background-color: #f2f3f4;
 display: flex;
 flex-direction: column;
 margin: 0 auto;
-
 text-align: center;
 padding-top: 75px;
 padding-bottom: 75px;
-
 color: #f4f6f7;
 background-color: #2E2F42;
+text-shadow: 4px 5px 2px green;
 }
 .button1 {
 display: flex;
@@ -173,9 +174,12 @@ gap: 50px;
 padding-bottom: 60px;
 padding-top: 60px;
 
+
+
 }
 .top {
 background-color: none;
+background-image: radial-gradient( tomato, teal);
 }
 .colo {
 background-color: none;
@@ -184,6 +188,9 @@ background-color: none;
  text-align: center;
  font-size: 3rem;
  padding-bottom: 50px;
+ padding-top: 50px;
+ background-image: linear-gradient(yellow, orange);
+ text-shadow: 5px 5px 4px red;
 }
 .team {
 display: flex;
@@ -192,7 +199,9 @@ gap: 20px;
 
 }
 .team1 {
+padding: 30px;
 background-color: none;
+background-image: radial-gradient( blue, yellow);
 }
 
 
