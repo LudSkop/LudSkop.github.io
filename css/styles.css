@@ -26,6 +26,9 @@ img {
 button {
 cursor: pointer;
 }
+
+
+
 /*========наслідування ЛИШЕ ТЕKСТОВІ ВЛАСТИВОСТІ==========*/
 
 body {
@@ -131,7 +134,7 @@ text-shadow: 4px 5px 2px green;
 }
 .button1 {
 display: flex;
-flex-direction: colum;
+flex-direction: column;
 align-items: flex-start;
 margin: 0 auto;
 }
@@ -239,8 +242,8 @@ background-image: radial-gradient( blue, yellow);
   color: white;
 }
 .footer-logo {
-margin-left: ;
-margin-right: ;
+margin-left: auto;
+margin-right: auto;
 background-color: #2E2F42;
 }
 
@@ -268,7 +271,7 @@ text-transform: uppercase;
 }
 .web {
 color: #00f;
-background: #yellow;
+background: yellow;
 }
 .studio {
 color: #2E2F42;
@@ -282,7 +285,7 @@ color: red
 .menu-title:hover,
 .menu-title:focus {
     color: rgb(255, 0, 0);
-    background-color: ;
+    background-color: none;
 }
 
 .menu-title {
@@ -290,7 +293,7 @@ font-family: Roboto, sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 2%;
+letter-spacing: 0.02em;
 
 
 }
