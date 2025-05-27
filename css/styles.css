@@ -108,7 +108,7 @@ margin-left: auto;
   display: flex;
   flex-wrap: wrap; /* Дозволяємо переноситись на новий рядок на маленьких екранах */
   background-color: #f2f3f4 ;
-    background-image: radial-gradient(blue, yellow);
+  background-image: radial-gradient(blue, yellow);
 
   }
  .menu-page {
@@ -226,15 +226,15 @@ background-image: radial-gradient( blue, yellow);
   /*============== color               ============*/
   .color1 {
   background-color: #f2f3f4;
-    background-image: radial-gradient(blue, yellow);
+  background-image: radial-gradient(blue 20%, yellow 80%);
   }
     .color2 {
   background-color: #f2f3f4;
-    background-image: radial-gradient(blue, yellow);
+  background-image: radial-gradient(blue, yellow);
   }
     .color3 {
   background-color: #f2f3f4;
-    background-image: radial-gradient(blue, yellow);
+  background-image: radial-gradient(blue, yellow);
   }
 
 
