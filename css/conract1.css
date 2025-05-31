@@ -6,7 +6,6 @@ body.body {
   line-height: 1.6;
 }
 
-.main-title {
   text-align: center;
   font-size: 28px;
   margin-bottom: 10px;
@@ -18,9 +17,7 @@ body.body {
   margin-bottom: 40px;
 }
 
-.section {
-  margin-bottom: 30px;
-}
+
 
 .section-title {
   font-size: 18px;
@@ -33,3 +30,62 @@ body.body {
   text-align: justify;
   font-size: 16px;
 }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 10px;
+      background-color: #f9f9f9;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    .section {
+      margin-bottom: 20px;
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+
+    .section-title {
+      font-weight: bold;
+      font-size: 16px;
+      margin-bottom: 30px;
+      color: #2c3e50;
+    }
+
+    .paragraph {
+      text-align: justify;
+    }
+    .documents-container {
+  display: flex;
+  gap: 30px; /* Відстань між документами */
+  justify-content: space-between; /* або center / flex-start / flex-end */
+  align-items: flex-start;
+}
+
+.document {
+          flex: 1;
+          background: #fff;
+          padding: 20px;
+          box-shadow: 0 0 10px rgba(0,0,0,0.1);
+          overflow-y: auto;
+          max-height: 100vh;
+}
+.column {
+          flex: 1;
+          background: #fff;
+          padding: 20px;
+          box-shadow: 0 0 10px rgba(0,0,0,0.1);
+          overflow-y: auto;
+          max-height: 100vh;
+        }
+
+        .container {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          gap: 20px;
+          padding: 20px;
+        }
